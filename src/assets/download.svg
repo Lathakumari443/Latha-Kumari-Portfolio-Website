@@ -1,0 +1,7 @@
+<svg width="220" height="60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { font-family: 'Georgia', serif; font-size: 30px; fill: #6c5ce7; }
+  </style>
+  <!-- Name -->
+  <text class="text" x="40" y="38">Latha</text>
+</svg>

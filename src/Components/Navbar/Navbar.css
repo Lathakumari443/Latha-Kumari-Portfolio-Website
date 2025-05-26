@@ -1,0 +1,214 @@
+/* ================= COMMON STYLES =================== */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 15px;
+}
+
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img {
+    display: flex;
+    margin: auto;
+}
+.anchor-link {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+  
+.nav-mob-open {
+    display: none;
+  }
+  
+  .nav-mob-close {
+    display: none;
+  }
+  
+  
+  /* ============= MOBILE: max-width: 599px ============= */
+  @media (max-width: 599px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 10px 20px;
+      width: 100%;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 25px;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      background-color: #1F0016;
+      width: 300px;
+      height: 100%;
+      padding-top: 60px;
+      transition: right 0.5s;
+      z-index: 2;
+    }
+  
+    .nav-menu li {
+      flex-direction: row;
+      font-size: 24px;
+      padding-left: 40px;
+      gap: 15px;
+    }
+  
+    .nav-connect {
+      display: none;
+    }
+  
+    .nav-mob-open {
+      display: block;
+      position: fixed;
+      right: 20px;
+      top: 20px;
+      width: 30px;
+    }
+  
+    .nav-mob-close {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 25px;
+    }
+  
+    .anchor-link {
+      font-size: 20px;
+    }
+  }
+  
+  
+  /* ============ TABLET: 600px to 899px ============ */
+  @media (min-width: 600px) and (max-width: 899px) {
+    .navbar {
+      margin: 20px 40px;
+    }
+  
+    .nav-menu {
+      gap: 40px;
+      font-size: 18px;
+    }
+  
+    .nav-connect {
+      font-size: 20px;
+      padding: 15px 30px;
+    }
+  
+    .anchor-link {
+      font-size: 20px;
+    }
+  
+    .nav-mob-open {
+      display: block;
+      position: fixed;
+      right: 25px;
+      top: 20px;
+      width: 30px;
+    }
+  
+    .nav-mob-close {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      width: 25px;
+    }
+  
+    .nav-menu {
+      position: fixed;
+      flex-direction: column;
+      align-items: flex-start;
+      top: 0;
+      right: -350px;
+      width: 350px;
+      height: 100%;
+      background-color: #1F0016;
+      padding-top: 60px;
+      gap: 30px;
+      transition: right 0.5s;
+      z-index: 2;
+    }
+  
+    .nav-menu li {
+      flex-direction: row;
+      font-size: 26px;
+      padding-left: 60px;
+      gap: 20px;
+    }
+  
+    .nav-connect {
+      display: none;
+    }
+  }
+  
+  
+  /* ============ DESKTOP: 900px and above ============ */
+  @media (min-width: 900px) {
+    .navbar {
+      margin: 20px 170px;
+    }
+  
+    .nav-menu {
+      flex-direction: row;
+      gap: 60px;
+      position: static;
+      height: auto;
+      background: none;
+    }
+  
+    .nav-menu li {
+      flex-direction: column;
+      font-size: 20px;
+      padding-left: 0;
+    }
+  
+    .nav-connect {
+      display: block;
+      font-size: 16px;
+      padding: 15px 25px;
+   
+     
+    }
+  
+    .nav-mob-open,
+    .nav-mob-close {
+      display: none;
+    }
+  
+    .anchor-link {
+      font-size: 22px;
+    }
+  }
+  
