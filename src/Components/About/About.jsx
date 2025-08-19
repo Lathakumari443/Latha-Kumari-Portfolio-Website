@@ -17,7 +17,7 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>
-                            I specialize in Frontend Technologies like  HTML, CSS, Bootstrap, JavaScript, and the React.js library. And I have over 2.9 years experience on web development.
+                            I specialize in Frontend Development and I Proficient like  HTML, CSS, Bootstrap, JavaScript, and the React.js library. And I have over 2.6 years experience on web development.
                         </p>
                         <p>
                             I am passionate about building responsive, interactive, and engaging user interfaces that enhance user experiences.
@@ -34,7 +34,7 @@ const About = () => {
 
             <div className="about-experience">
                 <div className="experience-summary">
-                    <h4>2.9</h4>
+                    <h4>2.6</h4>
                     <p>Years of Experience</p>
                 </div>
                 <div className="experience-details">
