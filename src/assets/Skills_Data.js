@@ -27,8 +27,8 @@ const Skills_Data = [
     },
     {
         s_no: "06",
-        s_name: "Python, Django and MySQL",
-        s_desc: "Backend technologies for dynamic web apps"
+        s_name: "Git & GitHub",
+        s_desc: "Version control tools used to manage code and deploy projects."
     }
 ];
 

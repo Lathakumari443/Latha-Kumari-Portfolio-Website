@@ -17,11 +17,17 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>
-                            I specialize in Frontend Development and I Proficient like  HTML, CSS, Bootstrap, JavaScript, and the React.js library. And I have over 2.6 years experience on web development.
+                            I'm passionate about Frontend Development and enjoy creating clean, building responsive, interactive, and engaging user interfaces that enhance user experiences.
+                            by using HTML, CSS, Bootstrap, JavaScript, and React.js. 
+                            <br />
+                            <br />
+
+                            <li>I focus on building engaging web experiences that enhance usability and performance.</li><br />
+                            <li>I enjoy learning new frontend concepts and applying them through hands-on projects.</li><br />
+                            <li>I’m eager to grow as a frontend developer and contribute to real-world applications.</li>
+
                         </p>
-                        <p>
-                            I am passionate about building responsive, interactive, and engaging user interfaces that enhance user experiences.
-                        </p>
+
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>Programming Language: JavaScript</p></div>
@@ -34,14 +40,15 @@ const About = () => {
 
             <div className="about-experience">
                 <div className="experience-summary">
-                    <h4>2.6</h4>
-                    <p>Years of Experience</p>
+                    <h4>Frontend Developer</h4><br/>
+                    <p>Fresher | Entry-Level</p>
                 </div>
                 <div className="experience-details">
-                    <h4>Health Insurance System (HIS)</h4>
-                    <p>Contributed to frontend development using React.js, JavaScript, HTML, CSS, and Bootstrap</p>
+                    <h4>Skills & Learning</h4>
+                    <p>Seeking an entry-level Frontend Developer role where I can apply my knowledge of HTML, CSS, Bootstrap, JavaScript, and React.js while continuing to learn through real-world projects.</p>
                 </div>
             </div>
+
         </div>
     );
 };

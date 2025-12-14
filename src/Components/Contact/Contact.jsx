@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="contact-section">
             <div className="contact-left">
                 <h1>Let's talk</h1>
-                <p>"I’m currently looking for new opportunities to restart my career after a short break, I wrapped up my previous role in August. Now, I’m open to frontend development roles and always eager to contribute, learn, and grow. Feel free to reach out."</p>
+                <p>"Transforming from a non-IT background to frontend development after career break. Actively seeking entry-level frontend opportunities."</p>
                 <div className="contact-details">
                     <div className="contact-detail">
                         <img src={email_icon} alt="" height={50} width={50} /> <p>lathakumari.m443@gmail.com</p>

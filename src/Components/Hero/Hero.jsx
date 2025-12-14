@@ -9,11 +9,11 @@ const Hero = () => {
     <div id='home' className='hero'>
       <img src={profile_img} alt="" />
       <h1>
-        Hi, I'm <span>Latha Kumari</span>, Specializing in
-        <span style={{ color: 'yellow' }}> Frontend Development</span>
+        Hi, I'm <span>Latha Kumari</span>, looking for a
+        <span style={{ color: 'yellow' }}> Frontend Developer</span> Roles.
       </h1>
       <p>
-        Worked as Software Engineer in Hyderabad with 2.6 yrs experience in Web Development.
+        Passionate about building responsive and interactive web applications using HTML, CSS, Bootstrap, JavaScript, and React.js.
       </p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
